@@ -9,9 +9,10 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'kien/ctrlp.vim'
 Plug 'altercation/vim-colors-solarized'
-Plug 'Bling/vim-airline'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
@@ -87,3 +88,4 @@ nmap <leader>p :CtrlPMixed<cr>
 " vim-airline
 set laststatus=2
 let g:airline_theme='bubblegum'
+let g:airline_powerline_fonts = 1
